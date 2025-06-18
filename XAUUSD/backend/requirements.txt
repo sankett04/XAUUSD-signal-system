@@ -2,3 +2,4 @@ Flask
 requests
 yfinance
 pandas-ta
+setuptools
