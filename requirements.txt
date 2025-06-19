@@ -1,4 +1,6 @@
 Flask
 requests
 yfinance
-pandas_ta
+pandas-ta
+setuptools<81
+numpy==1.24.4
