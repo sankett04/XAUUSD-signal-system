@@ -27,7 +27,7 @@ Built with:
 
 ## 🚀 Live Demos
 
-- 🔼View App[](https://goldsignalsystem.streamlit.app/)
+- 🔼View App[https://goldsignalsystem.streamlit.app/](https://goldsignalsystem.streamlit.app/)
 -
 
 ## 🛠️ Requirements
