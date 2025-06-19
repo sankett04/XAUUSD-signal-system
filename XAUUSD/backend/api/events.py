@@ -1,8 +1,11 @@
 import requests
 import os
-from dotenv import load_dotenv
-load_dotenv()
-
+if not os.environ.get("RENDER"):
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+    except ImportError:
+        print("dotenv not available; skipping .env load")
 
 def is_fed_expected_to_cut():
     """
