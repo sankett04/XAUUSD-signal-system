@@ -4,3 +4,5 @@ yfinance
 pandas-ta
 setuptools<81
 numpy==1.24.4
+python-dotenv
+flask-cors
