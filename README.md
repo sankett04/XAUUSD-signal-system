@@ -9,7 +9,6 @@ Built with:
 - 🔼 Streamlit Frontend (deployed on Streamlit Cloud)
 - 📡 External data from TradingEconomics, FRED, Yahoo Finance
 
----
 
 ## 📊 Features
 
@@ -25,5 +24,42 @@ Built with:
 
 ---
 
-## 🧠 Project Structure
+
+## 🚀 Live Demos
+
+- 🔼View App[](https://goldsignalsystem.streamlit.app/)
+-
+
+## 🛠️ Requirements
+
+* `Flask`, `Flask-CORS`
+* `requests`, `yfinance`, `pandas_ta`
+* `numpy==1.24.4`
+* `gunicorn` (for Render)
+* `streamlit` (for frontend)
+* `python-dotenv` (for loading API keys locally)
+
+---
+
+## 📌 TODO / Improvements
+
+* Add fallback logic if APIs fail
+* Add auth/token system for API
+* Optional: add email alert for “BUY” signal
+
+---
+
+## 🧠 Author
+
+**Sanket Talele**
+🌐 [GitHub](https://github.com/sankett04)
+
+---
+
+## 📜 License
+
+This project is open-source under the MIT License.
+
+
+
 
