@@ -4,7 +4,7 @@ import requests
 # -----------------------
 # Config
 # -----------------------
-API_URL = "http://localhost:5000/api/checklist"  # Change if hosted elsewhere
+API_URL = st.secrets["backend"]["api_url"]  # Change if hosted elsewhere
 
 st.set_page_config(page_title="Gold Buy Signal Checker", layout="centered")
 
