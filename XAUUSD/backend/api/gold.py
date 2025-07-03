@@ -3,7 +3,7 @@ import pandas_ta as ta
 
 def get_gold_data():
     # Use longer period to ensure enough data for 200 EMA and MACD
-    data = yf.Ticker("GC=F").history(period="12mo", interval="1h")
+    data = yf.Ticker("GC=F").history(period="60d", interval="15m")
 
     if data.empty or "Close" not in data.columns:
         print("⚠️ Failed to fetch Gold (XAU/USD) data")
