@@ -1,8 +1,4 @@
 Flask
 flask-cors
 requests
-yfinance
-numpy==1.24.4
 python-dotenv
-streamlit
-pandas-ta==0.3.14b0
