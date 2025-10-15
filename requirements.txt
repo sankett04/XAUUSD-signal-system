@@ -1,7 +1,7 @@
 Flask
 requests
 yfinance
-pandas-ta
+pandas-ta==0.3.14b0
 setuptools>=67
 numpy==1.24.4
 python-dotenv
