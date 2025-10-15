@@ -4,3 +4,10 @@ flask-cors
 requests
 python-dotenv
 gunicorn
+
+
+yfinance
+pandas-ta==0.3.14b0
+setuptools>=67
+numpy==1.24.4
+
