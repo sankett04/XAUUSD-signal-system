@@ -1,9 +1,13 @@
 Flask
 requests
 yfinance
-pandas-ta==0.3.14b0
+
 setuptools>=67
-numpy==1.24.4
+yfinance
+pandas-ta==0.4.71b0
+setuptools>=67
+wheel
+pip>=23.1
 python-dotenv
 flask-cors
 
